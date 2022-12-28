@@ -1,0 +1,53 @@
+# start of keyboard shortcuts
+# lock computer
+super + z
+    dm-tool lock
+super + shift + z
+    dm-tool lock && systemctl suspend
+# increase brightness
+XF86MonBrightnessUp
+    xbacklight -inc 10
+# decrease brightness
+XF86MonBrightnessDown
+    xbacklight -dec 10
+# mute volume
+XF86AudioMute
+    amixer set Master toggle
+# volume up
+XF86AudioRaiseVolume
+    amixer set Master 5%+
+# volume down
+XF86AudioLowerVolume
+    amixer set Master 5%-
+# mute mic
+XF86AudioMicMute
+    amixer set Capture toggle
+# bluetooth manager
+alt + F12
+    blueman-manager
+# nmtui wifi connect utility
+alt + F5
+    nmtui
+# start of application shortkeys
+# file manager
+super + e
+    nautilus
+# qownnotes
+alt + q
+    QOwnNotes
+# librewolf
+alt + w
+    librewolf
+# thunderbird
+alt + t
+    thunderbird
+# brave
+alt + b
+    brave-browser
+# start of website shortcuts
+# start home assistant
+alt + F1
+    surf https://leehi.jvan.be/
+# start nextcloud talk
+alt + F2
+    surf https://cloud.jvan.be/index.php/apps/spreed/
