@@ -2,6 +2,7 @@
 # lock computer
 super + z
     dm-tool lock
+# lock and put computer to sleep
 super + shift + z
     dm-tool lock && systemctl suspend
 # increase brightness
